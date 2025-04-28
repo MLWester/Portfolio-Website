@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaImages, FaTimes, FaChevronLeft, FaChevronRight, FaDownload, FaEye, FaFileAlt, FaPlay } from 'react-icons/fa';
 import ParticleBackground from '../components/ParticleBackground';
 
 const projects = [
