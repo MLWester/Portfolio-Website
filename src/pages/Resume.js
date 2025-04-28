@@ -5,11 +5,10 @@ import ParticleBackground from '../components/ParticleBackground';
 
 const Resume = () => {
   const handleDownload = () => {
-    // Replace with your actual resume PDF path
-    const resumeUrl = '/resume.pdf';
+    const resumeUrl = '/Mason Wester Resume.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'your-name-resume.pdf';
+    link.download = 'Mason Wester Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -52,7 +51,7 @@ const Resume = () => {
           className="bg-gray-900 rounded-xl shadow-2xl overflow-hidden border border-lime-500/20"
         >
           <iframe
-            src="/resume.pdf"
+            src="/Mason Wester Resume.pdf"
             className="w-full h-[800px]"
             title="Resume PDF"
           />
