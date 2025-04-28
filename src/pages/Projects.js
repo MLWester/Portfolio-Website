@@ -326,12 +326,10 @@ const ProjectModal = ({ project, onClose }) => {
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [showVideoModal, setShowVideoModal] = useState(false);
 
   const openModal = (project) => {
     setSelectedProject(project);
-    setCurrentImageIndex(0);
     if (project.video) {
       setShowVideoModal(true);
     }
@@ -340,27 +338,6 @@ const Projects = () => {
   const closeModal = () => {
     setSelectedProject(null);
     setShowVideoModal(false);
-  };
-
-  const openVideoModal = (project) => {
-    setSelectedProject(project);
-    setShowVideoModal(true);
-  };
-
-  const nextImage = () => {
-    if (selectedProject && Array.isArray(selectedProject.screenshots)) {
-      setCurrentImageIndex((prevIndex) => 
-        (prevIndex + 1) % selectedProject.screenshots.length
-      );
-    }
-  };
-
-  const prevImage = () => {
-    if (selectedProject && Array.isArray(selectedProject.screenshots)) {
-      setCurrentImageIndex((prevIndex) => 
-        (prevIndex - 1 + selectedProject.screenshots.length) % selectedProject.screenshots.length
-      );
-    }
   };
 
   return (
