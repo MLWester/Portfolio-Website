@@ -5,7 +5,7 @@ import ParticleBackground from '../components/ParticleBackground';
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 py-16 relative">
+    <div className="min-h-screen bg-gradient-to-b from-[#0A0F0A] via-[#050806] to-[#030503] py-16 relative">
       <div className="absolute inset-0 z-0">
         <ParticleBackground />
       </div>

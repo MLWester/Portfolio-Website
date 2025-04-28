@@ -8,17 +8,17 @@ const Skills = () => {
     {
       category: 'Programming Languages',
       icon: <FaLanguage className="text-lime-400" size={24} />,
-      items: ['C#', 'Python', 'JavaScript', 'SQL', 'HTML/CSS']
+      items: ['C#', 'Python', 'JavaScript', 'SQL', 'HTML/CSS', 'Node.js']
     },
     {
       category: 'Web Development',
       icon: <FaCode className="text-lime-400" size={24} />,
-      items: ['React', 'FastAPI', 'Razor Pages', 'Tailwind CSS', 'Bootstrap', 'Recharts']
+      items: ['React', 'Angular', 'FastAPI', 'Razor Pages', 'Tailwind CSS', 'Bootstrap', 'Recharts']
     },
     {
       category: 'Database & Tools',
       icon: <FaDatabase className="text-lime-400" size={24} />,
-      items: ['SQL Server', 'Entity Framework Core', 'Query Optimization', 'Entity Relationship Modeling', 'Git', 'CSV Parsing']
+      items: ['SQL Server', 'MongoDB', 'Entity Framework Core', 'Query Optimization', 'Entity Relationship Modeling', 'Git', 'CSV Parsing']
     },
     {
       category: 'Other Skills',
@@ -28,7 +28,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 py-16 relative">
+    <div className="min-h-screen bg-gradient-to-b from-[#0A0F0A] via-[#050806] to-[#030503] py-16 relative">
       <div className="absolute inset-0 z-0">
         <ParticleBackground />
       </div>
