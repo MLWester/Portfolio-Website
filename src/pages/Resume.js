@@ -5,7 +5,7 @@ import ParticleBackground from '../components/ParticleBackground';
 
 const Resume = () => {
   const handleDownload = () => {
-    const resumeUrl = '/Mason Wester Resume.pdf';
+    const resumeUrl = '/images/Mason Wester Resume.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Mason Wester Resume.pdf';
@@ -51,9 +51,16 @@ const Resume = () => {
           className="bg-gray-900 rounded-xl shadow-2xl overflow-hidden border border-lime-500/20"
         >
           <iframe
-            src="/Mason Wester Resume.pdf"
+            src="/images/Mason Wester Resume.pdf"
             className="w-full h-[800px]"
             title="Resume PDF"
+            onError={(e) => {
+              e.target.style.display = 'none';
+              const errorDiv = document.createElement('div');
+              errorDiv.className = 'p-8 text-center text-gray-300';
+              errorDiv.innerHTML = 'Unable to load resume. Please use the download button above.';
+              e.target.parentNode.appendChild(errorDiv);
+            }}
           />
         </motion.div>
       </div>
