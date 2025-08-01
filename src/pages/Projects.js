@@ -4,6 +4,14 @@ import ParticleBackground from '../components/ParticleBackground';
 
 const projects = [
   {
+    title: "DevWithMe - Full Stack Developer Collaboration Platform",
+    description: "A comprehensive full-stack web application designed to help developers find and join real-world collaborative projects. Built with ASP.NET Core Razor Pages (.NET 9) and TailwindCSS, featuring Entity Framework Core with SQL Server on Azure. The platform enables users to create profiles, showcase skills, start or join projects, manage team tasks with Kanban-style boards (To-Do/In Progress/Done), and export completed work for portfolios. Includes role-based access control, real-time project join requests, file uploads, admin moderation tools, and integrations with Google Analytics, GitHub, and Discord. Deployed via Azure App Service with automated CI/CD through GitHub Actions.",
+    image: "/images/devwithmepic.jpg",
+    technologies: ["ASP.NET Core", ".NET 9", "Razor Pages", "Entity Framework Core", "SQL Server", "Azure", "TailwindCSS", "ASP.NET Identity", "GitHub Actions", "CI/CD"],
+    github: "https://github.com/MLWester/DevWithMe",
+    demo: "https://devwithme-app-afdsctcwa2gracha.westcentralus-01.azurewebsites.net/"
+  },
+  {
     title: "FitPro Gym Membership Manager",
     description: "A full-featured ASP.NET Core web application designed to manage gym memberships. It includes functionality for adding, updating, and deleting members and plans, searching and sorting records, and enforcing validation and data integrity. Built using Razor Pages, EF Core, and Bootstrap for a clean, responsive UI.",
     image: "/images/fitpro 5.png",

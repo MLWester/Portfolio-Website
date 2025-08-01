@@ -8,22 +8,22 @@ const Skills = () => {
     {
       category: 'Programming Languages',
       icon: <FaLanguage className="text-lime-400" size={24} />,
-      items: ['C#', 'Python', 'JavaScript', 'SQL', 'HTML/CSS', 'Node.js']
+      items: ['C#', 'Python', 'JavaScript', 'HTML', 'CSS', 'SQL', 'Node.js']
     },
     {
-      category: 'Web Development',
+      category: 'Frameworks & Libraries',
       icon: <FaCode className="text-lime-400" size={24} />,
-      items: ['React', 'Angular', 'FastAPI', 'Razor Pages', 'Tailwind CSS', 'Bootstrap', 'Recharts']
+      items: ['.NET Core', 'ASP.NET Core', 'React', 'Razor Pages', 'Bootstrap', 'Entity Framework Core', 'TailwindCSS', 'FastAPI', 'Recharts']
     },
     {
-      category: 'Database & Tools',
+      category: 'Databases & Analytics',
       icon: <FaDatabase className="text-lime-400" size={24} />,
-      items: ['SQL Server', 'MongoDB', 'Entity Framework Core', 'Query Optimization', 'Entity Relationship Modeling', 'Git', 'CSV Parsing']
+      items: ['PostgreSQL', 'SQL Server', 'MongoDB', 'RapidMiner', 'R', 'Data Visualization', 'Data Mining', 'Probability & Statistics']
     },
     {
-      category: 'Other Skills',
+      category: 'Tools & Practices',
       icon: <FaTools className="text-lime-400" size={24} />,
-      items: ['Data Analysis', 'Project Management', 'Agile Methodologies', 'UI/UX Design', 'Problem Solving', 'Unit Testing', 'Object-Oriented Programming']
+      items: ['Git', 'GitHub', 'VS Code', 'Windows', 'Linux', 'API Integration', 'Agile', 'Scrum', 'TDD', 'Version Control', 'UML', 'Testing', 'Technical Documentation', 'Cloud Computing', 'Cybersecurity Fundamentals', 'Team Leadership', 'Project Management']
     }
   ];
 
