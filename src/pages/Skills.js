@@ -13,17 +13,17 @@ const Skills = () => {
     {
       category: 'Frameworks & Libraries',
       icon: <FaCode className="text-lime-400" size={24} />,
-      items: ['.NET Core', 'ASP.NET Core', 'React', 'Razor Pages', 'Bootstrap', 'Entity Framework Core', 'TailwindCSS', 'FastAPI', 'Recharts']
+      items: ['.NET Core', 'ASP.NET Core', 'React', 'React Router 6', 'Razor Pages', 'Bootstrap', 'Material UI', 'Entity Framework Core', 'TailwindCSS', 'FastAPI', 'Recharts']
     },
     {
       category: 'Databases & Analytics',
       icon: <FaDatabase className="text-lime-400" size={24} />,
-      items: ['PostgreSQL', 'SQL Server', 'MongoDB', 'RapidMiner', 'R', 'Data Visualization', 'Data Mining', 'Probability & Statistics']
+      items: ['PostgreSQL', 'SQL Server', 'MongoDB', 'RapidMiner', 'Power BI', 'Data Visualization', 'Data Mining', 'Probability & Statistics']
     },
     {
       category: 'Tools & Practices',
       icon: <FaTools className="text-lime-400" size={24} />,
-      items: ['Git', 'GitHub', 'VS Code', 'Windows', 'Linux', 'API Integration', 'Agile', 'Scrum', 'TDD', 'Version Control', 'UML', 'Testing', 'Technical Documentation', 'Cloud Computing', 'Cybersecurity Fundamentals', 'Team Leadership', 'Project Management']
+      items: ['Git', 'GitHub', 'VS Code', 'Windows', 'Linux', 'API Integration', 'REST APIs', 'RapidAPI', 'Netlify', 'Agile', 'Scrum', 'TDD', 'Version Control', 'UML', 'Testing', 'Technical Documentation', 'Cloud Computing', 'Cybersecurity Fundamentals', 'Team Leadership', 'Project Management']
     }
   ];
 

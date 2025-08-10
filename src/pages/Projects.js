@@ -4,6 +4,14 @@ import ParticleBackground from '../components/ParticleBackground';
 
 const projects = [
   {
+    title: "GetFit – Exercise App",
+    description: "Production-ready React app for discovering workouts with rich detail and related videos. Integrates ExerciseDB and YouTube Search via RapidAPI. Includes full-text search, body-part and equipment filters with a drag-to-pan selector, responsive grid with pagination, detailed exercise pages, and recommendations by target muscle/equipment. Deployed on Netlify.",
+    image: "/images/GetFit.jpg",
+    technologies: ["React 18", "React Router 6", "Material UI", "RapidAPI (ExerciseDB, YouTube)", "REST APIs", "Netlify"],
+    github: "https://github.com/MLWester/Exercise-App",
+    demo: "https://mlw-getfit.netlify.app/"
+  },
+  {
     title: "DevWithMe - Full Stack Developer Collaboration Platform",
     description: "A comprehensive full-stack web application designed to help developers find and join real-world collaborative projects. Built with ASP.NET Core Razor Pages (.NET 9) and TailwindCSS, featuring Entity Framework Core with SQL Server on Azure. The platform enables users to create profiles, showcase skills, start or join projects, manage team tasks with Kanban-style boards (To-Do/In Progress/Done), and export completed work for portfolios. Includes role-based access control, real-time project join requests, file uploads, admin moderation tools, and integrations with Google Analytics, GitHub, and Discord. Deployed via Azure App Service with automated CI/CD through GitHub Actions.",
     image: "/images/devwithmepic.jpg",
