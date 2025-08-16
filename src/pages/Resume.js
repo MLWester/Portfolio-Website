@@ -5,10 +5,10 @@ import ParticleBackground from '../components/ParticleBackground';
 
 const Resume = () => {
   const handleDownload = () => {
-    const resumeUrl = '/images/Mason_WesterResume_2025.pdf';
+    const resumeUrl = '/images/Wester_Resume_2025.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'Mason_WesterResume_2025.pdf';
+    link.download = 'Wester_Resume_2025.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -51,7 +51,7 @@ const Resume = () => {
           className="bg-gray-900 rounded-xl shadow-2xl overflow-hidden border border-lime-500/20"
         >
           <iframe
-            src="/images/Mason_WesterResume_2025.pdf"
+            src="/images/Wester_Resume_2025.pdf"
             className="w-full h-[800px]"
             title="Resume PDF"
             onError={(e) => {
