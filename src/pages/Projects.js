@@ -4,6 +4,25 @@ import ParticleBackground from '../components/ParticleBackground';
 
 const projects = [
   {
+    title: "TalentScope AI – Smart Resume Analyzer",
+    description: "AI-powered web app that analyzes resumes, matches them to job descriptions, and checks ATS compatibility. Features PDF-to-image processing for AI workflows, gap analysis, keyword suggestions, and a responsive, accessible UI. Built with modern React, TypeScript, and Vite; deployed with static assets and Docker support.",
+    image: "/images/resumeapppic.jpg",
+    technologies: [
+      "React 19",
+      "React Router 7",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand",
+      "Vite",
+      "pdfjs-dist",
+      "react-dropzone",
+      "Docker",
+      "Puter"
+    ],
+    github: "https://github.com/MLWester/resume-analyzer",
+    demo: "https://puter.com/app/talentscope-ai"
+  },
+  {
     title: "GetFit – Exercise App",
     description: "Production-ready React app for discovering workouts with rich detail and related videos. Integrates ExerciseDB and YouTube Search via RapidAPI. Includes full-text search, body-part and equipment filters with a drag-to-pan selector, responsive grid with pagination, detailed exercise pages, and recommendations by target muscle/equipment. Deployed on Netlify.",
     image: "/images/GetFit.jpg",
