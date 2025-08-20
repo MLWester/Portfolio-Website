@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes, FaGithub } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,6 +53,17 @@ const Navbar = () => {
               >
                 Contact
               </Link>
+              <a
+                href="https://github.com/MLWester/Portfolio-Website"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-lime-400 px-2 sm:px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2"
+                aria-label="View portfolio source on GitHub"
+              >
+                <FaGithub className="inline-block" />
+                <span className="hidden sm:inline">View Portfolio Source Code
+                </span>
+              </a>
             </div>
           </div>
 
@@ -114,6 +125,16 @@ const Navbar = () => {
           >
             Contact
           </Link>
+          <a
+            href="https://github.com/MLWester/Portfolio-Website"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-300 hover:text-lime-400 block px-3 py-2 rounded-md text-base font-medium transition-colors"
+            onClick={() => setIsOpen(false)}
+            aria-label="View portfolio source on GitHub"
+          >
+            <span className="inline-flex items-center gap-2"><FaGithub /> View Source</span>
+          </a>
         </div>
       </motion.div>
     </nav>
