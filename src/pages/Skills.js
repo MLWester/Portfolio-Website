@@ -13,7 +13,7 @@ const Skills = () => {
     {
       category: 'Frameworks & Libraries',
       icon: <FaCode className="text-lime-400" size={24} />,
-      items: ['.NET Core', 'ASP.NET Core', 'React', 'React Router 6/7', 'Razor Pages', 'Bootstrap', 'Material UI', 'Zustand', 'Entity Framework Core', 'TailwindCSS', 'FastAPI', 'Recharts']
+      items: ['.NET Core', 'ASP.NET Core', 'React', 'React Router 6/7', 'Razor Pages', 'Bootstrap', 'Material UI', 'Zustand', 'Framer Motion (Motion)', 'Entity Framework Core', 'TailwindCSS', 'FastAPI', 'Recharts', 'React Toastify']
     },
     {
       category: 'Databases & Analytics',
@@ -23,7 +23,7 @@ const Skills = () => {
     {
       category: 'Tools & Practices',
       icon: <FaTools className="text-lime-400" size={24} />,
-      items: ['Git', 'GitHub', 'VS Code', 'Windows', 'Linux', 'API Integration', 'REST APIs', 'RapidAPI', 'Vite', 'Docker', 'Puter', 'Agile', 'Scrum', 'TDD', 'Version Control', 'UML', 'Testing', 'Technical Documentation', 'Cloud Computing', 'Cybersecurity Fundamentals', 'Team Leadership', 'Project Management']
+      items: ['Git', 'GitHub', 'VS Code', 'Windows', 'Linux', 'API Integration', 'REST APIs', 'RapidAPI', 'Vite', 'Docker', 'Puter', 'ESLint', 'Prompt Engineering', 'Agile', 'Scrum', 'TDD', 'Version Control', 'UML', 'Testing', 'Technical Documentation', 'Cloud Computing', 'Cybersecurity Fundamentals', 'Team Leadership', 'Project Management']
     }
   ];
 

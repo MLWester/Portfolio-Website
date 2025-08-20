@@ -4,6 +4,22 @@ import ParticleBackground from '../components/ParticleBackground';
 
 const projects = [
   {
+    title: "Dwellify – Real Estate Landing + Signup",
+    description: "Modern, responsive real estate landing and signup experience. Features smooth cross-route section navigation, a responsive projects carousel (1–4 cards per viewport), motion-polished animations, a frosted-glass mobile menu, and accessible UI. Built with React 19, Vite, Tailwind CSS, Motion, and React Router 6.",
+    image: "/images/dwellify_homepage.jpg",
+    technologies: [
+      "React 19",
+      "Vite 7",
+      "Tailwind CSS 3",
+      "Motion",
+      "React Router 6",
+      "React Toastify",
+      "ESLint"
+    ],
+    github: "https://github.com/MLWester/Dwellify---Real-Estate-App",
+    demo: "https://dwellifyrealestate.netlify.app"
+  },
+  {
     title: "TalentScope AI – Smart Resume Analyzer",
     description: "AI-powered web app that analyzes resumes, matches them to job descriptions, and checks ATS compatibility. Features PDF-to-image processing for AI workflows, gap analysis, keyword suggestions, and a responsive, accessible UI. Built with modern React, TypeScript, and Vite; deployed with static assets and Docker support.",
     image: "/images/resumeapppic.jpg",
