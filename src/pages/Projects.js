@@ -20,6 +20,20 @@ const projects = [
     demo: "https://dwellifyrealestate.netlify.app"
   },
   {
+    title: "Lights Out F1 – Formula 1 Explorer",
+    description: "Fast React app to explore Formula 1 seasons, races, and standings. Uses an Ergast‑compatible API client with 24h sessionStorage caching and a Jolpi mirror fallback. Polished UI with translucent tables and subtle animations.",
+    image: "/images/lightsoutpic.png",
+    technologies: [
+      "React 19",
+      "React Router 7",
+      "Vite 7",
+      "Tailwind CSS 4",
+      "Framer Motion"
+    ],
+    github: "https://github.com/MLWester/Lights-Out",
+    demo: "https://Lights-OutF1.netlify.app"
+  },
+  {
     title: "TalentScope AI – Smart Resume Analyzer",
     description: "AI-powered web app that analyzes resumes, matches them to job descriptions, and checks ATS compatibility. Features PDF-to-image processing for AI workflows, gap analysis, keyword suggestions, and a responsive, accessible UI. Built with modern React, TypeScript, and Vite; deployed with static assets and Docker support.",
     image: "/images/resumeapppic.jpg",
