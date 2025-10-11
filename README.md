@@ -25,6 +25,26 @@ I’m Mason Wester, a full‑stack developer focused on building production‑re
 - Node 18
 - Deployment: Netlify (SPA redirects via `netlify.toml`)
 
+## Skills Overview
+
+- **Programming Languages**: C#, Python, JavaScript, TypeScript, HTML, CSS, SQL, Node.js
+- **Frameworks & Libraries**: .NET Core, ASP.NET Core, React, React Router 6/7, Razor Pages, Bootstrap, Material UI, Zustand, Framer Motion (Motion), Entity Framework Core, TailwindCSS, FastAPI, Django, Recharts, React Toastify
+- **Databases & Analytics**: PostgreSQL, SQL Server, MongoDB, RapidMiner, Power BI, Data Visualization, Data Mining, Probability & Statistics
+- **Tools & Practices**: Git, GitHub, VS Code, Windows, Linux, API Integration, REST APIs, RapidAPI, Vite, Docker, Puter, ESLint, Prompt Engineering, Agile, Scrum, TDD, Version Control, UML, Testing, Technical Documentation, Cloud Computing, Cybersecurity Fundamentals, Team Leadership, Project Management
+
+## Professional Certifications
+
+- Agile Project Management – Google (Mar 2025)
+- Generative AI: Elevate your Software Development Career – IBM (Dec 2025)
+- Cybersecurity Capstone: Breach Response Case Studies – IBM (Dec 2024)
+- Tools for Data Science – IBM (May 2024)
+- Data Science Methodology – IBM (May 2024)
+- What Is Data Science? – IBM (May 2024)
+- Introduction to Cloud Computing – IBM (May 2024)
+- Introduction to Networking and Storage – IBM (May 2024)
+- Introduction to Cybersecurity Careers – IBM (May 2024)
+- Responsive Web Design – freeCodeCamp (Sep 2024)
+
 ## Projects Showcase
 
 ### TalentScope AI – Smart Resume Analyzer
@@ -105,7 +125,7 @@ This project is configured for Netlify. Connect your repository and use:
 ## Contact
 
 - GitHub: https://github.com/MLWester
-- Resume (PDF): `/public/images/Wester_Resume_2025.pdf` (also embedded on the Resume page)
+- Resume (PDF): `/public/images/Mason_Wester_Resume.pdf` (also embedded on the Resume page)
 
 ---
 

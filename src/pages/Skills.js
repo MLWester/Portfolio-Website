@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaCode, FaDatabase, FaTools, FaLanguage } from 'react-icons/fa';
+import { FaCode, FaDatabase, FaTools, FaLanguage, FaCertificate } from 'react-icons/fa';
 import ParticleBackground from '../components/ParticleBackground';
 
 const Skills = () => {
@@ -13,7 +13,7 @@ const Skills = () => {
     {
       category: 'Frameworks & Libraries',
       icon: <FaCode className="text-lime-400" size={24} />,
-      items: ['.NET Core', 'ASP.NET Core', 'React', 'React Router 6/7', 'Razor Pages', 'Bootstrap', 'Material UI', 'Zustand', 'Framer Motion (Motion)', 'Entity Framework Core', 'TailwindCSS', 'FastAPI', 'Recharts', 'React Toastify']
+      items: ['.NET Core', 'ASP.NET Core', 'React', 'React Router 6/7', 'Razor Pages', 'Bootstrap', 'Material UI', 'Zustand', 'Framer Motion (Motion)', 'Entity Framework Core', 'TailwindCSS', 'FastAPI', 'Django', 'Recharts', 'React Toastify']
     },
     {
       category: 'Databases & Analytics',
@@ -24,6 +24,22 @@ const Skills = () => {
       category: 'Tools & Practices',
       icon: <FaTools className="text-lime-400" size={24} />,
       items: ['Git', 'GitHub', 'VS Code', 'Windows', 'Linux', 'API Integration', 'REST APIs', 'RapidAPI', 'Vite', 'Docker', 'Puter', 'ESLint', 'Prompt Engineering', 'Agile', 'Scrum', 'TDD', 'Version Control', 'UML', 'Testing', 'Technical Documentation', 'Cloud Computing', 'Cybersecurity Fundamentals', 'Team Leadership', 'Project Management']
+    },
+    {
+      category: 'Professional Certifications',
+      icon: <FaCertificate className="text-lime-400" size={24} />,
+      items: [
+        'Agile Project Management – Google (Mar 2025)',
+        'Generative AI: Elevate your Software Development Career – IBM (Dec 2025)',
+        'Cybersecurity Capstone: Breach Response Case Studies – IBM (Dec 2024)',
+        'Tools for Data Science – IBM (May 2024)',
+        'Data Science Methodology – IBM (May 2024)',
+        'What Is Data Science? – IBM (May 2024)',
+        'Introduction to Cloud Computing – IBM (May 2024)',
+        'Introduction to Networking and Storage – IBM (May 2024)',
+        'Introduction to Cybersecurity Careers – IBM (May 2024)',
+        'Responsive Web Design – freeCodeCamp (Sep 2024)'
+      ]
     }
   ];
 
